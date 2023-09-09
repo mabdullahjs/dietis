@@ -1,0 +1,121 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .header-sidebar-content {
+    .header-sidebar {
+      width: 20%;
+    }
+  }
+  .header-children {
+    width: 80%;
+  }
+  .header {
+    .header-menu {
+      width: 65%;
+    }
+  }
+  .scheduleteambody {
+    .scheduleteambody-card-wrapper {
+      .scheduleteambody-card {
+        width: 100%;
+        padding: 20px 30px;
+      }
+    }
+  }
+  .protocolschedulebody-chat-chart {
+    flex-wrap: wrap;
+  }
+  .protocol-chat {
+    width: 100%;
+  }
+  .protocol-chart {
+    width: 100%;
+  }
+  .sidebarsub {
+    width: 100%;
+  }
+  .processbody {
+    margin-top: 0;
+  }
+  .processbody-main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .header-sidebar-content {
+    .header-sidebar {
+      width: 45%;
+    }
+    .header-logic-show {
+      display: none;
+    }
+  }
+  .header-children {
+    width: 100%;
+  }
+  .header {
+    .header-bar {
+      display: block;
+    }
+  }
+
+  .process-page-body-container {
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  .scheduleteambody {
+    .scheduleteambody-card-wrapper {
+      .scheduleteambody-card {
+        padding: 20px 20px;
+      }
+    }
+  }
+  .processbody-theme-add {
+    flex-wrap: wrap;
+  }
+
+  .processbody-right-action-btn {
+    padding: 20px 0px;
+    width: 100%;
+  }
+  .maincreate-ressort-btn {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .actiontrigger {
+    justify-content: center;
+  }
+}
+
+/* Small devices  */
+@media only screen and (max-width: 400px) {
+  .header-sidebar-content {
+    .header-sidebar {
+      width: 80%;
+    }
+  }
+  .header {
+    .header-menu {
+      margin-left: 0px;
+    }
+    .header-menu {
+      width: 100%;
+    }
+  }
+
+  .scheduleteambody {
+    .scheduleteambody-card-wrapper {
+      .scheduleteambody-card {
+        width: 100%;
+        padding: 20px 20px;
+      }
+    }
+  }
+  .processbody-theme-select {
+    width: 90%;
+  }
+}
