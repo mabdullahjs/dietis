@@ -11,5 +11,5 @@
         "dest": "./**/*"
       }
     ],
-    "public": "web/build"
+    "public": true
   }
